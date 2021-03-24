@@ -1,2 +1,4 @@
+@echo off
 git add *
-git commit -m "Nova modificação."
+git commit -m "Novo commit."
+echo Pronto! Commit feito
