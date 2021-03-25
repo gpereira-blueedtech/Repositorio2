@@ -1,4 +1,5 @@
 @echo off
 git add *
-git commit -m "Novo commit."
+set /p msg="Digite o comentario do commit: "
+git commit -m "%msg"
 echo Pronto! Commit feito
